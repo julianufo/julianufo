@@ -1,0 +1,296 @@
+.logo{
+	top: -72px;
+	left: 16px;
+	width: 200px;
+	height: 224px;
+	background: url(../img/homepage/logo.png);
+	z-index: 40;
+	animation: logo_frames 80s;
+    -moz-animation: logo_frames 80s; /* Firefox */   
+    -webkit-animation: logo_frames 80s; /* Safari and Chrome */
+    -o-animation: logo_frames 80s; /* Opera */
+}
+
+.cloud1{
+	top: 200px;
+	left: 40px;
+	width: 149px;
+	height: 84px;
+	background: url(../img/homepage/cloud-1.png);
+	z-index: 40;
+}
+
+.cloud2{
+	top: 50px;
+	left: 306px;
+	width: 78px;
+	height: 53px;
+	background: url(../img/homepage/cloud-2.png);
+	z-index: 30;
+/*	animation: cloud2_frames 20s;
+    -moz-animation: cloud2_frames 20s; 
+    -webkit-animation: cloud2_frames 20s; 
+    -o-animation: cloud2_frames 20s; */
+}
+
+.cloud3{
+	top: 80px;
+	left: 800px;
+	width: 116px;
+	height: 72px;
+	background: url(../img/homepage/cloud-3.png);
+	z-index: 20;
+}
+
+.cloud{
+    animation-timing-function:linear;
+    -moz-animation-timing-function:linear; /* Firefox */
+    -webkit-animation-timing-function:linear; /* Safari and Chrome */
+    -o-animation-timing-function:linear; /* Opera */
+    animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite; /* Firefox */
+    -webkit-animation-iteration-count:infinite; /*Safari and Chrome*/
+    -o-animation-iteration-count:infinite; /* Opera */
+}
+
+.layout_common {
+    width: 335px;
+	height: 380px;
+
+}
+
+.layout_common:hover{
+	cursor: pointer;
+}
+
+.member1{
+	top: 41px;
+	left: 45px;
+	z-index: 3;
+}
+
+.line1{
+	top: -280px;
+	left: 163px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-4.png);
+	z-index: 5;
+}
+
+.layout1{
+    background: url(../img/about/12.png);
+    transform: rotate(-25deg);
+	-ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Safari and Chrome */
+	-o-transform: rotate(-25deg); /* Opera */
+	-moz-transform: rotate(-25deg); /* Firefox */
+}
+
+.member2{
+	top: 9px;
+	left: 214px;
+	z-index: 2;
+}
+
+.line2{
+	top: -289px;
+	left: 123px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-4.png);
+	z-index: 5;
+}
+
+.layout2{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+.member3{
+	top: 22px;
+	left: 300px;
+	z-index: 1;
+}
+
+.line3{
+	top: -315px;
+	left: 171px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-4.png);
+	z-index: 5;
+}
+
+.layout3{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+.member4{
+	top: 32px;
+	left: 578px;
+	z-index: 1;
+}
+
+.line4{
+	top: -280px;
+	left: 104px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-4.png);
+	z-index: 5;
+}
+
+.line42{
+	top: -247px;
+	left: 312px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-4.png);
+	z-index: 5;
+}
+
+.layout4{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+.member1 img, .member2 img, .member3 img, .member4 img{
+	display: none;
+}
+
+.member5{
+	top: 57px;
+	left: 78px;
+	z-index: 3;
+}
+
+.line5{
+	top: -132px;
+	left: 89px;
+	width: 26px;
+	height: 191px;
+	background: url(../img/about/shengzi-1.png);
+	z-index: 5;
+}
+
+.line52{
+	top: -111px;
+	left: 305px;
+	width: 26px;
+	height: 191px;
+	background: url(../img/about/shengzi-1.png);
+	z-index: 5;
+}
+
+.layout5{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(-13deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+.member6{
+	top: 22px;
+	left: 520px;
+	z-index: 2;
+}
+
+.line6{
+	top: -120px;
+	left: 171px;
+	width: 26px;
+	height: 344px;
+	background: url(../img/about/shengzi-1.png);
+	z-index: 5;
+}
+
+.layout6{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(-24deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+.member7{
+	top: 157px;
+	left: 378px;
+	z-index: 3;
+}
+
+.line7{
+	top: -160px;
+	left: 116px;
+	width: 26px;
+	height: 191px;
+	background: url(../img/about/shengzi-2.png);
+	z-index: 5;
+}
+
+.line72{
+	top: -149px;
+	left: 140px;
+	width: 26px;
+	height: 191px;
+	background: url(../img/about/shengzi-2.png);
+	z-index: 5;
+}
+
+.layout7{
+    background: url(../img/about/12.png);
+    transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari and Chrome */
+	-o-transform: rotate(0deg); /* Opera */
+	-moz-transform: rotate(0deg); /* Firefox */
+}
+
+
+.member1 img, .member2 img, .member3 img, .member4 img, .member5 img, .member6 img, .member7 img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+
+.grass1{
+	top: 515px;
+	left: 150px;
+	width: 114px;
+	height: 27px;
+	background: url(../img/homepage/small-grass-1.png);
+	z-index: 20;
+}
+
+.character5{
+	top: 500px;
+	left: 320px;
+	width: 52px;
+	height: 74px;
+	background: url(../img/homepage/small-chicken.png);
+}
+.element{
+	position: absolute;
+	-moz-background-size:100%; /* Firefox 3.6 */
+	-webkit-background-size:100%;
+    background-size:100%;
+	background-repeat: no-repeat;
+}
+

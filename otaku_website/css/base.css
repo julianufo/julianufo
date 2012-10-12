@@ -1,0 +1,75 @@
+html,body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,a,img,th,td,form,fieldset,iframe,object,pre,code,legend,blockquote{
+    margin:0;padding:0;border:0;outline:0;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+:focus{
+    outline:0;
+}
+
+strong{
+    font-weight:bold;
+}
+
+
+form label{
+    cursor:pointer;
+}
+
+input,button,textarea{
+    font-family:inherit;
+    font-size:100%;
+}
+
+table{
+    border-collapse:separate;
+}
+
+caption,th,td{
+    font-weight:normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    font-size:100%;
+}
+
+p{
+	word-wrap:break-word;
+}
+
+body{	
+	background-color: black;
+	color: white;
+}
+
+#wrapper{
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:1004px;
+	height: 618px;	
+	margin-left: -502px;
+	background-image:url(../img/background.png);
+	margin-top: -306px; /* Firefox 3.6 */
+	-webkit-background-size:100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+	-moz-box-shadow:0px 0px 100px black inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:0px 0px 100px black inset;          /* For Chrome5+, Safari5+ */
+	border-radius: 10px;
+	box-shadow:0px 0px 100px black inset; 
+
+}
+
+.animation_pause{
+    animation-play-state:paused;
+	-moz-animation-play-state:paused; /* Firefox*/
+	-webkit-animation-play-state:paused; /* Safari and Chrome */
+	-o-animation-play-state:paused; /* Opera */
+}
+
